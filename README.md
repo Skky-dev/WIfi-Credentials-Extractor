@@ -1,6 +1,6 @@
 # Wi-Fi Credential Extractor
 
-A Python script to retrieve saved Wi-Fi profiles and their passwords on Windows systems using the `netsh` command-line utility. T
+A Python script to retrieve saved Wi-Fi profiles and their passwords on Windows systems using the `netsh` command-line utility. 
 
 ---
 
@@ -48,8 +48,8 @@ A Python script to retrieve saved Wi-Fi profiles and their passwords on Windows 
 
 The script uses the following commands:
 
- 1. ```netsh wlan show profile``` to list all saved Wi-Fi profiles.
+ 1. `netsh wlan show profile` to list all saved Wi-Fi profiles.
  
- 2. ```netsh wlan show profile <profile_name> key=clear``` to extract the password for each profile.
+ 2. `netsh wlan show profile <profile_name> key=clear` to extract the password for each profile.
 
 The output is parsed, and the results are formatted into a JSON object for easy readability.
