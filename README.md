@@ -26,7 +26,7 @@ A Python script to retrieve saved Wi-Fi profiles and their passwords on Windows 
 3. **Run the Script**:  
    Execute the script using Python on Command Prompt or Powershell:
    ```bash
-   python wifi_credential_retriever.py
+   python Script.py
 
 ---
 
